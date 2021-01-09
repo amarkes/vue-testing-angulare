@@ -3,11 +3,12 @@ se você chegou até aqui, é porque tem os pre requisitos sitados [aqui](https:
 
 ### Sobre o teste
 1. para qualquer dúvida deverá ser aberta uma issue, afinal sua dúvida pode ser a do próximo
-1. ao publicar o projeto ative o github pages (pode ver mais sobre neste [link](https://www.treinaweb.com.br/blog/criando-paginas-para-repositorios-com-o-github-pages/), iremos olhar a parte funcional pelo github pages
+1. ao publicar o projeto no github, certifique que o mesmo esteja privado e ative o github pages (pode ver mais sobre neste [link](https://www.treinaweb.com.br/blog/criando-paginas-para-repositorios-com-o-github-pages/), iremos olhar a parte funcional pelo github pages
+1. Dê permissão aos usuarios do github (@amarkes)
 
 ### o candidato deverá:
 1. usar o Vue cli
-1. publicar seu teste no github (Publico) para que seja feita a revisão no código e visual
+1. publicar seu teste no github (Privado) para que seja feita a revisão no código e visual
 1. usar as boas praticas do Vue js
 1. criar uma aplicação web component, o candidato pode saber mais sobre web component neste [artigo](https://medium.com/@thulioph_/web-components-com-vue-js-9a21f6dea3cc)
 1. criar uma aplicação que possa ser inserida em qualquer pagina web
