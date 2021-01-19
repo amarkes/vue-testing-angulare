@@ -1,21 +1,20 @@
 # Front-end Vue.js Developer @ Angular e-Commerce e Pagamentos Digitais
-se você chegou até aqui, é porque tem os pre requisitos sitados [aqui](https://github.com/vuejs-br/vagas/issues/213)
+se você chegou até aqui, é porque tem os pre requisitos citados [aqui](https://github.com/vuejs-br/vagas/issues/213)
 
-### Sobre o teste
+## Sobre o teste
 1. para qualquer dúvida deverá ser aberta uma issue, afinal sua dúvida pode ser a do próximo
-1. ao publicar o projeto no github, certifique que o mesmo esteja privado (para nenhum candidato colar do outro) e dê permissão para os usuários ( amarkes )
+1. ao publicar o projeto no github, certifique que o mesmo esteja privado (para nenhum candidato colar do outro) e dê permissão para os usuários ( amarkes e reichert )
 1. ative o github pages no projeto (pode ver mais sobre neste [link](https://www.treinaweb.com.br/blog/criando-paginas-para-repositorios-com-o-github-pages/), iremos olhar a parte funcional pelo github pages
 
 
-### o candidato deverá:
+## o candidato deverá:
 1. usar o Vue cli
 1. publicar seu teste no github (Privado) para que seja feita a revisão no código e visual
 1. usar as boas praticas do Vue js
 1. criar uma aplicação web component, o candidato pode saber mais sobre web component neste [artigo](https://medium.com/@thulioph_/web-components-com-vue-js-9a21f6dea3cc)
 1. criar uma aplicação que possa ser inserida em qualquer pagina web
 
-### Projeto
-
+## Projeto
 - [ ] criar um novo projeto com nome de wip-angulare
 - [ ] implementar o bootstrap para os estilos do projeto
 - [ ] criar uma pagina (amostra) para mostrar os components que serão desenvolvidos
@@ -32,10 +31,8 @@ se você chegou até aqui, é porque tem os pre requisitos sitados [aqui](https:
 └─ stores
 ```
 
-### componente de cadastro
-
+## componente de cadastro
 - [ ] criar um botão na pagina de amostra para abrir um modal (com botão de fechar no footer do modal) ( iremos chamar de modal de cadastro)
-
 + devemos criar um formulário contendo os seguintes campos
   + Nome completo
   + Email (Validação de email)
@@ -44,14 +41,14 @@ se você chegou até aqui, é porque tem os pre requisitos sitados [aqui](https:
   + Sexo (drodown com Masculino e Feminino)
   + T-Shirt Masculina/Feminina (mostrar de acordo com o que foi selecionado no sexo)
 
-salvar em store (ao da refresh na pagina esses dados não existirão)
+- Salvar em cache usando o vuex (ao dar refresh na pagina esses dados não existirão mais caso não sejam gravados)
 
-- [ ] criar um botão na pagina de amostrar, este botão irá abrir um outro modal (com botão de fechar no footer do modal), neste modal iremos mostrar em uma tabela, os dados salvos no store do modal de cadastro, a tabela irá exibir os campos Nome, email, data de nascimento, telefone, sexo, t-shirt e ações
+- [ ] criar um botão na pagina de amostra, este botão irá abrir um outro modal (com botão de fechar no footer do modal), neste modal iremos mostrar em uma tabela, os dados salvos no store do modal de cadastro, a tabela irá exibir os campos Nome, email, data de nascimento, telefone, sexo, t-shirt e ações
 + Botoes de ações serão ( Alterar e Deletar )
   + ao clicar em alterar deverá abrir o modal de cadastro passando os dados deste item e ao salvar as alterações irá substituir o item no store
   + ao clicar em deletar ele irá mostrar um alerta pedindo confirmação, se for confirmado o item deverá ser deletado do store
 
-### componente de post
+## componente de post
 - [ ] fazer a instalação do axios
 - [ ] criar serviços (pode conferir a documentação [aqui](https://jsonplaceholder.typicode.com/guide/)
 + criar um método para pegar um único post (get)
