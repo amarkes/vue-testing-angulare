@@ -3,7 +3,7 @@ se você chegou até aqui, é porque tem os pre requisitos citados [aqui](https:
 
 ## Sobre o teste
 1. para qualquer dúvida deverá ser aberta uma issue, afinal sua dúvida pode ser a do próximo
-1. ao publicar o projeto no github, certifique que o mesmo esteja privado (para nenhum candidato colar do outro) e dê permissão para os usuários ( amarkes e reichert )
+1. ao publicar o projeto no github, certifique que o mesmo esteja privado (para nenhum candidato colar do outro) e dê permissão para os usuários ( amarkes e migueljr)
 1. ative o github pages no projeto (pode ver mais sobre neste [link](https://www.treinaweb.com.br/blog/criando-paginas-para-repositorios-com-o-github-pages/), iremos olhar a parte funcional pelo github pages
 
 
